@@ -21,7 +21,6 @@ body {
   min-height: 100vh;
   background: right 55vw bottom 30vh no-repeat url("/images/bg-pattern-top.svg"),
     50vw 50vh no-repeat url("/images/bg-pattern-bottom.svg"), var(--bg-color);
-  min-height: 100vh;
 }
 
 .flex-container {
@@ -33,7 +32,8 @@ body {
 
 .card {
   height: 380px;
-  min-width: 350px;
+  width: 100%;
+  max-width: 350px;
   border-radius: 15px;
   box-shadow: 0 25px 25px rgba(0, 0, 0, 0.1);
   background: top no-repeat url("../images/bg-pattern-card.svg"),
